@@ -13,6 +13,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ## Módulo 1: Fundamentos
 
 ---
+
 ##### Bloco 1: [Unix, Bash e Shell Script]
 - [x] 1.1 - Fundamentos do Desenvolvimento Web
 - [x] 1.2 - Introdução - Unix & Shell
@@ -72,9 +73,13 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
 - [ ] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [ ] 8.6 - Projeto - Zoo functions
+
 ---
+
 ## Módulo 2: Front-end
+
 ---
+
 ##### Bloco 9: [JavaScript e Testes Assíncronos]
 - [ ] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Assíncrono - Fetch API e async/await
@@ -125,9 +130,13 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 18: Projeto App de Receitas
 - [ ] 19.1 - Projeto - App de Receitas
+
 ---
+
 ## Módulo 3: Back-end
+
 ---
+
 ##### Bloco 19: [Docker: Utilizando Containers]
 - [ ] 19.1 - Utilizando Containers - Docker
 - [ ] 19.2 - Manipulando Imagens no Docker
@@ -209,9 +218,13 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Bloco 32: [MasterClass - VPS, CI/CD]
 - [ ] 32.1 - VPS
 - [ ] 32.2 - Bonus
+
 ---
+
 ## Módulo 4: Ciência da Computação
+
 ---
+
 ##### Bloco 31: [Introdução à Python]
 - [ ] 33.1 - Aprendendo Python
 - [ ] 33.2 - Entrada e Saída de Dados
