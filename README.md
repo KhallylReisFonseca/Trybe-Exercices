@@ -14,7 +14,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ---
 
-##### Bloco 1: Unix, Bash e Shell Script
+##### Bloco 1: [Unix, Bash e Shell Script]
 - [x] 1.1 - Fundamentos do Desenvolvimento Web
 - [x] 1.2 - Introdução - Unix & Shell
 - [x] 1.3 - Unix & Bash - Parte 1
