@@ -1,4 +1,5 @@
 
+<img src = "trybelogo.png" width = "325px" align = "right">
 ---
 
 # Trybe - Exercícios
