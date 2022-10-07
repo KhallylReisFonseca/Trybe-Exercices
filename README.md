@@ -1,5 +1,5 @@
 ---
-# Trybe - Exercícios
+Trybe - Exercícios
 ---
 Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/in/khallyl-reis-fonseca/)__ durante minha tragetória na [Trybe](https://www.betrybe.com/) :rocket:
 
