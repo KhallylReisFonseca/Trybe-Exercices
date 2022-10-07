@@ -7,8 +7,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ## Módulo 1: Fundamentos
 
 ##### Bloco 1: [Unix, Bash e Shell Script]
-- [x] 1.3 - Fundamentos do Desenvolvimento Web
-- [x] 1.3 - Introdução - Unix & Shell
+- [x] 1.1 - Fundamentos do Desenvolvimento Web
+- [x] 1.2 - Introdução - Unix & Shell
 - [x] 1.3 - Unix & Bash - Parte 1
 - [x] 1.4 - Unix & Bash - Parte 2
 
@@ -18,19 +18,19 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ##### Bloco 3: [Introdução à HTML e CSS]
 - [x] 3.1 - Introdução - HTML & CSS
-- [x] 3.1 - HTML & CSS - Estruturas de página
-- [x] 3.2 - HTML & CSS - Primeiros passos em CSS
-- [x] 3.3 - HTML & CSS - Seletores e posicionamento
-- [x] 3.4 - HTML Semântico
-- [x] 3.5 - Projeto - Lessons Learned
+- [x] 3.2 - HTML & CSS - Estruturas de página
+- [x] 3.3 - HTML & CSS - Primeiros passos em CSS
+- [x] 3.4 - HTML & CSS - Seletores e posicionamento
+- [x] 3.5 - HTML Semântico
+- [x] 3.6 - Projeto - Lessons Learned
 
 ##### Bloco 4: [Introdução à JavaScript e Lógica de Programação]
 - [x] 4.1 - Introdução - JavaScript
-- [x] 4.1 - JavaScript - Primeiros passos
-- [x] 4.2 - JavaScript - Array e loop For
-- [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
-- [x] 4.4 - JavaScript - Objetos e funções
-- [x] 4.5 - Projeto - Playground Functions
+- [x] 4.2 - JavaScript - Primeiros passos
+- [x] 4.3 - JavaScript - Array e loop For
+- [x] 4.4 - JavaScript - Lógica de Programação e Algoritmos
+- [x] 4.5 - JavaScript - Objetos e funções
+- [x] 4.6 - Projeto - Playground Functions
 
 ##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage]
 - [x] 5.1 - JavaScript - DOM e seletores
@@ -47,10 +47,10 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 6.1 - HTML & CSS - Forms
 - [ ] 6.2 - Bibliotecas JavaScript e Frameworks CSS
 - [ ] 6.3 - Introdução - CSS Flexbox
-- [ ] 6.3 - CSS Flexbox - Parte 1
-- [ ] 6.4 - CSS Flexbox - Parte 2
-- [ ] 6.5 - CSS Responsivo - Mobile First
-- [ ] 6.6 - Projeto - Trybewarts
+- [ ] 6.4 - CSS Flexbox - Parte 1
+- [ ] 6.5 - CSS Flexbox - Parte 2
+- [ ] 6.6 - CSS Responsivo - Mobile First
+- [ ] 6.7 - Projeto - Trybewarts
 
 ##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários]
 - [ ] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
@@ -67,7 +67,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 8.6 - Projeto - Zoo functions
 
 ## Módulo 2: Front-end
----
+
 ##### Bloco 9: [JavaScript e Testes Assíncronos]
 - [ ] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Assíncrono - Fetch API e async/await
@@ -132,7 +132,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 20.2 - Encontrando dados em um banco de dados
 - [ ] 20.3 - Filtrando dados de forma específica
 - [ ] 20.4 - Manipulando tabelas
-- [ ] 20.4 - Projeto - All For One
+- [ ] 20.5 - Projeto - All For One
 
 ##### Bloco 21: [Funções SQL, JOINs e Normalização]
 - [ ] 21.1 - Funções mais usadas no SQL
