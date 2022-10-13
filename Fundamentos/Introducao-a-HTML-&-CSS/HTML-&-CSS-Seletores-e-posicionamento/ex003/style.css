@@ -1,0 +1,17 @@
+h1, p{
+    text-align: center;
+}
+
+ol:hover{
+    background-color: rgb(136, 123, 123);
+}
+ul:hover{
+    background-color: rgb(136, 123, 123);
+}
+li:active{
+    font-style: italic;
+}
+
+ol, ul{
+    list-style: none;
+}
