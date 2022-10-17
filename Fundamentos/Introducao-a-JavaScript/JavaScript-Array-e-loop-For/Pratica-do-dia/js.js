@@ -72,7 +72,20 @@ function maiorNumero(numeros) {
     console.log(Math.max.apply(null, numeros));
 }
 
-maiorNumero(numeros);*/
+maiorNumero(numeros);
+*/
+/* MAIOR NUMERO USANDO .sort((a, b) => b - a);
+
+let numeros = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+function maiorNumero(numeros) {
+    numeros.sort((a, b) => b - a);
+    let mmaiorNumero = [ ];
+    maiorNumero = numeros[0];
+    console.log(maiorNumero);
+}
+maiorNumero(numeros);
+*/
 
 let numeros = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
@@ -111,12 +124,28 @@ Forma facil usando Math.min
 
 let numeros = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-function maiorNumero(numeros) {
+function menorNumero(numeros) {
     console.log(Math.min.apply(null, numeros));
 }
 
-maiorNumero(numeros);
+menorNumero(numeros);
 */
+
+/* MENOR NUMERO USANDO .sort((a, b) => a - b);
+
+let numeros = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+function menorNumero(numeros) {
+    numeros.sort((a, b) => a - b);
+    let menorNumero = [ ];
+    menorNumero = numeros[0];
+    console.log(menorNumero);
+}
+menorNumero(numeros);
+*/
+
+
+
 
 let numeros = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
