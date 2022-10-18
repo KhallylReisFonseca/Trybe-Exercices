@@ -80,7 +80,7 @@ let numeros = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 function maiorNumero(numeros) {
     numeros.sort((a, b) => b - a);
-    let mmaiorNumero = [ ];
+    let maiorNumero = [ ];
     maiorNumero = numeros[0];
     console.log(maiorNumero);
 }
@@ -90,7 +90,7 @@ maiorNumero(numeros);
 let numeros = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 function maiorNumero(numeros) {
-    let numeroMaior = 0;
+    let numeroMaior = [ ];
     for (let index = 0; index <= numeros.length; index++) {
     if (numeros[index] > numeroMaior) {
         numeroMaior = numeros[index];

@@ -38,13 +38,32 @@ reverseString(word);
 
     Utilize a estrutura de repetição for para escrever dois algoritmos: um que retorne a maior palavra desse array e outro que retorne a menor. Considere o número de caracteres de cada palavra. 
 */ 
-let lista = ['java', 'javascript', 'python', 'html', 'css'];
+let array = ['java', 'javascript', 'python', 'html', 'css'];
 
-console.log(Math.min(lista));
+function maiorMenor(){
+    let palavraMaior = array[0];
+    for (let index = 0; index < array.length; index += 1) {
+        if(array[index].length > palavraMaior.length){
+            palavraMaior = array[index];
+        }
+    }
+    console.log(palavraMaior)
+};
 
+maiorMenor();
 
+function menorPalavra(){
+    let palavraMenor = array[0];
+    for (let index = 0; index < array.length; index += 1) {
+        if(array[index].length < palavraMenor.length){
+            palavraMenor = array[index];
+        }
+    }
+    console.log(palavraMenor)
 
+}
 
+menorPalavra();
 
 /* EX 04
     Um número primo é um número inteiro maior do que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 2 e 50. 
