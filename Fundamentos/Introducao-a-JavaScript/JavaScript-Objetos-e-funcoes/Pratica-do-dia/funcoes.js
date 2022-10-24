@@ -56,21 +56,19 @@ Crie uma função que receba um array de inteiros e retorne o índice do menor v
 
         Valor esperado no retorno da função: 6.
 */
-let array = [-5, 4, 6, 7, 10, 0, -3];
 
-function menorNumero(array){
-    let resultado = 0
-    for (const key in array) {
-        if (resultado < array[key]) {
-            resultado = key;
-        } 
+array = [-10, -11, 4, 6, 7, 10, 0, -3, -5, -3];
+
+function menorIndiceValor(array){
+    let resultado = 0;
+    for (let index = 0; index < array.length; index++) {
+        if (resultado > array[index]){
+            resultado = array[index]
+        }
     }
-console.log(resultado)
+    console.log(array.indexOf(resultado));
 }
-menorNumero(array);
-
-
-
+menorIndiceValor(array);
 
 /*EX 04 
 Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
@@ -79,8 +77,13 @@ Crie uma função que receba um array de nomes e retorne o nome com a maior quan
 
         Valor esperado no retorno da função: Fernanda.
 */ 
+let nomes = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
 
+function maiorNome(nomes){
 
+}
+
+maiorNome(nomes);
 
 
 
