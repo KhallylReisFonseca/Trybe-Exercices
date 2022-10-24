@@ -77,10 +77,16 @@ Crie uma função que receba um array de nomes e retorne o nome com a maior quan
 
         Valor esperado no retorno da função: Fernanda.
 */ 
-let nomes = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+let nomes = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana', 'kakakakakkaka'];
 
 function maiorNome(nomes){
-
+    let maiorNome = nomes[0];
+    for (let index = 0; index < nomes.length; index++) {
+        if(nomes[index].length > maiorNome.length){
+            maiorNome = nomes[index];
+        }
+    }
+    console.log(maiorNome);
 }
 
 maiorNome(nomes);
