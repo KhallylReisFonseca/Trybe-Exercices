@@ -100,9 +100,18 @@ Crie uma função que receba um array de inteiros e retorne o inteiro que mais s
 
         Valor esperado no retorno da função: 2.
 */
+let array = [2, 3, 2, 5, 8, 2, 3];
 
-
-
+function repete(array){
+    let resultado = 0;
+    for (let index = 0; index <= array.length; index++) {
+        if(array[index] === array[index]){
+            console.log('sim!')
+        }
+    }
+    //console.log(resultado)
+}
+repete(array);
 
 /* EX 06 
 Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o somatório de todos os números de 1 até N.
@@ -111,9 +120,14 @@ Crie uma função que receba um número natural (número inteiro não negativo) 
 
         Valor esperado no retorno da função: 1+2+3+4+5 = 15.
 */
-
-
-
+let resultado = 0;
+function somaTudo(numero){
+    for (let index = 0; index <= numero; index++) {
+    resultado += index
+    }
+    console.log(resultado)
+}
+somaTudo(5);
 
 /* EX 07
 Crie uma função que receba uma string word e outra string ending. Verifique se a string ending é o final da string word. Considere que a string ending sempre será menor que a string word.
