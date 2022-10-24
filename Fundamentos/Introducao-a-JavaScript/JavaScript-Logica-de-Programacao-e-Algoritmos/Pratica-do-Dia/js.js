@@ -40,7 +40,7 @@ reverseString(word);
 */ 
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 
-function maiorMenor(){
+function maiorPalavra(){
     let palavraMaior = array[0];
     for (let index = 0; index < array.length; index += 1) {
         if(array[index].length > palavraMaior.length){
@@ -50,7 +50,7 @@ function maiorMenor(){
     console.log(palavraMaior)
 };
 
-maiorMenor();
+maiorPalavra();
 
 function menorPalavra(){
     let palavraMenor = array[0];
