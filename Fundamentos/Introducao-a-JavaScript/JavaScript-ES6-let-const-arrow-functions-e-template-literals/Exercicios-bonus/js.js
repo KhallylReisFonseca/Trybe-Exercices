@@ -44,3 +44,20 @@ Não se esqueça de usar template literals
         HTML
         CSS
 */
+
+
+
+function substituaX(nome){
+    const frase = `Tryber ${nome} aqui!`
+    return frase;
+}
+substituaX('Khallyl');
+
+
+
+function minhasSkills(substituaX){
+    const skills = ['JavaScript', 'HTML', 'CSS']
+    let frase2 = `${substituaX('Khallyl')}\nMinhas três principais habilidades são: \n ${skills[0]}\n ${skills[1]}\n ${skills[2]}.`
+    console.log(frase2)
+}
+minhasSkills(substituaX);
