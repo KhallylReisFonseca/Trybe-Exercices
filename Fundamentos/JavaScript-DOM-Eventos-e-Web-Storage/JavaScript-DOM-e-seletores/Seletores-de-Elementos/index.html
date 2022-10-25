@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      paragraph.style.backgroundColor = "blue"
+      const paragraph2 = document.getElementById("second-paragraph");
+      paragraph2.style.backgroundColor = "yellow"
+      paragraph2.innerHTML = "DEU CERTO CARAMBA!"
+      paragraph2.style.fontSize = "15pt"
+      const pegaTitulo = document.getElementById("page-title");
+      pegaTitulo.style.backgroundColor = "grey"
+      pegaTitulo.innerHTML = "MUDANDO TITULO!"
+    </script>
+  </body>
+</html>
