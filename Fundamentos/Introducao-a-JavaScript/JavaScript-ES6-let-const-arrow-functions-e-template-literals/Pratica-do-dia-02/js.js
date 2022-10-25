@@ -1,5 +1,6 @@
 /* Parte II
-
+*/
+/* EX 01
 Abaixo, você verá algumas especificações de algoritmos para desenvolver. É fundamental que você utilize o que aprendeu sobre let, const, arrow functions, template literals e ternary operator.
 
 Crie uma função que ligue e desligue um motor de um carro.
@@ -13,25 +14,17 @@ Crie uma função que ligue e desligue um motor de um carro.
     Imprima no terminal “O motor está ligado“ e “O motor está desligado“ (lembre-se de utilizar o template literals nesse momento).
 
     Bônus (opcional): tente fazer o mesmo exercício utilizando ternary operator.
+*/
+let motor = 'desligado';
 
-Solução - Bônus
+const ligarDesligar = () => (motor === 'desligado' ? motor = 'ligado' : motor = 'desligado')
 
-  let status = 'desligado';
-
-
-  const ligarDesligar = () => (
-
-    status === 'desligado' ? status = 'ligado' : status = 'desligado'
-
-  )
+console.log(`O motor está ${motor}.`)
+console.log(`O motor está ${ligarDesligar()}.`)
+console.log(`O motor está ${ligarDesligar()}.`)
 
 
-  console.log(`O motor está ${ligarDesligar()}`); // O motor está ligado
-
-  console.log(`O motor está ${ligarDesligar()}`); // O motor está desligado
-
-  console.log(`O motor está ${ligarDesligar()}`); // O motor está ligado
-
+/* EX 02
 🚀 Crie uma função que calcule a área de um círculo.
 
     Na matemática, a fórmula para calcular a área de um círculo é: área = PI vezes o raio elevado ao quadrado.
@@ -55,8 +48,14 @@ Solução - Bônus
         Parâmetro: 5
 
         Retorno: Essa é a área do círculo: 78.5
+*/
+const pi = 3.14
+const circleArea = (raio) => ((raio*raio) * pi)
 
-🚀 Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase.
+console.log(`Essa é a área do círculo: ${circleArea(5)}.`)
+
+
+/* 🚀 Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase.
 
 Exemplo:
 
@@ -67,3 +66,29 @@ Exemplo:
     Bônus (opcional): Tente fazer o mesmo exercício utilizando o método array.sort().
 
 */
+let string = "123 testando khallyl testandooooo vamos la trybe deucertocaramba";
+
+function retornaMaior(string){
+    const arrayFrases = string.split(' ');
+    let inicial = arrayFrases[0].length;
+    let resultado
+    for (let index = 0; index < arrayFrases.length; index++) {
+        if(inicial <= arrayFrases[index].length){
+          resultado = arrayFrases[index]
+        }
+    }
+    console.log(resultado)
+}
+retornaMaior(string);
+
+
+
+let string = "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo testando khallyl testandooooo vamos la trybe deucertocaramba aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+
+function retornaMaior(string){
+    const arrayFrases = string.split(' ');
+    arrayFrases.sort()
+    //arrayFrases.reverse();
+    console.log(arrayFrases)
+}
+retornaMaior(string);
