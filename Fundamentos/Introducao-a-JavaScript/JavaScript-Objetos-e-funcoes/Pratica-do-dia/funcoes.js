@@ -142,3 +142,16 @@ Crie uma função que receba uma string word e outra string ending. Verifique se
         verificaFimPalavra('joaofernando', 'fernan');
             Retorno esperado: false
 */
+
+function verificaFimPalavra(string, final){
+    string.split('');
+    final.split('');
+    let control = true;
+    for (let index = 0; index < string.length; index++) {
+        if(string[string.length - final.length + index] != final[index]){
+            control = false;
+        }
+    }
+    console.log(control)
+}
+verificaFimPalavra('khallyl', 'lyll');
