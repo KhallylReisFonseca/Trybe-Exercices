@@ -33,8 +33,29 @@ Copie o código abaixo e rode-o para verificar sua saída:
     console.log('Nome:', pessoa.nome);
 
     console.log('Idade:', pessoa.idade);
+*/
+let pessoa = {
 
-🚀 Modifique a variável para que não ocorra Erro;
+  nome: 'Henri',
+
+  idade: 20
+
+}
+
+pessoa = {
+
+  nome: 'Luna',
+
+  idade: 19
+
+} // Altere essa estrutura para corrigir o erro.
+
+console.log('Nome:', pessoa.nome);
+
+console.log('Idade:', pessoa.idade);
+
+/*
+/*🚀 Modifique a variável para que não ocorra Erro;
 
 
 🚀 Modifique a estrutura das funções a seguir para que elas sejam arrow functions;
@@ -52,16 +73,14 @@ Copie o código abaixo:
 
     console.log(numeroAleatorio());
 
-Solução:
+*/
+const numeroAleatorio = () => Math.random()
 
-    const numeroAleatorio = () => Math.random()
-
-
-    console.log(numeroAleatorio());
+console.log(numeroAleatorio());
 
 
 
-🚀 Transforme a função hello em uma arrow function;
+/*🚀 Transforme a função hello em uma arrow function;
 
 
 Copie o código abaixo:
@@ -76,8 +95,21 @@ Copie o código abaixo:
 
     console.log(hello(nome));
 
+*/
 
-🚀 Transforme a função nomeCompleto em uma arrow function;
+
+
+const hello = (nome) => `Olá, ${nome}!`
+
+ 
+
+let nome = 'Ivan';
+
+console.log(hello(nome));
+
+
+
+/*🚀 Transforme a função nomeCompleto em uma arrow function;
 
 
 Copie o código abaixo:
@@ -93,9 +125,22 @@ Copie o código abaixo:
     let sobrenome = 'Pires';
 
     console.log(nomeCompleto(nome, sobrenome));
+*/
+
+let nome1 = 'Ivan';
+
+let sobrenome = 'Pires';
+
+const nomeCompleto = (nome1, sobrenome) => `${nome1} ${sobrenome}`
 
 
-🚀 Altere a expressão if/else utilizando ternary operator;
+
+console.log(nomeCompleto(nome1, sobrenome));
+
+
+
+
+/*🚀 Altere a expressão if/else utilizando ternary operator;
 
 
 Copie o código abaixo:
@@ -118,3 +163,9 @@ Copie o código abaixo:
 
     console.log(speedCar(speed));
     */
+
+    let speed = 121;
+
+    const speedCar = (speed) => (speed >= 120) ? `Você ultrapassou o limite de velocidade` : `Você está na velocidade permitida`
+
+    console.log(speedCar(speed));
