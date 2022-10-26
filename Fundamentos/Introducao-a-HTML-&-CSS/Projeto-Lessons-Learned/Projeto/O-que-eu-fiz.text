@@ -1,0 +1,235 @@
+# Requisitos do projeto
+
+## 1. Adicione uma cor de fundo específica para a página
+
+
+
+A página deve possuir uma cor de fundo rgb(253, 251, 251)
+
+
+**O que será testado:**
+
+- A página deve possuir cor de fundo: `rgb(253, 251, 251)`.
+
+
+
+## 2. Adicione uma barra superior com um título
+
+
+
+Essa barra superior deve possuir o idigual a cabecalho e deve ser fixa no topo da página com a propriedade toptendo 0. O título deve estar dentro da barra e ser um elemento h1 com id igual a titulo.
+
+
+**Dica:** Para saber mais sobre posicionamento de elementos no CSS, consulte a documentação (https://www.w3schools.com/css/css_positioning.asp);
+
+**O que será testado:**
+
+- A barra deve possuir o ID `cabecalho`;
+- A barra superior deve ser fixa no topo da página;
+- A barra deve ter a propriedade `top` tendo o valor `0`;
+- O título deve estar dentro da barra e possuir o ID `titulo`, além de ser uma tag `h1`.
+
+
+
+## 3. Adicione uma foto sua à página
+
+
+
+A foto deve ser inserida utilizando uma tag img com o ID minha_foto
+
+
+**O que será testado:**
+
+- A foto deve ser uma tag `img` e possuir o ID `minha_foto`.
+
+
+
+## 4. Adicione uma lista de lições aprendidas à página
+
+
+
+A lista deve possuir 10 itens, ser numerada e possuir o ID licoes_aprendidas.
+<
+
+**O que será testado:**
+
+- A lista deve ser numerada;
+
+- A lista deve possuir o ID `licoes_aprendidas`;
+
+- A lista deve possuir 10 itens.
+
+
+
+## 5. Crie uma lista de lições que ainda deseja aprender para a página
+
+
+
+A lista deve possuir 10 itens, não ser numerada e possuir o ID licoes_a_aprender.
+
+
+**O que será testado:**
+
+- A lista não deve ser numerada;
+  
+- A lista deve possuir o ID `licoes_a_aprender`;
+
+- A lista deve possuir 10 itens.
+
+
+
+## 6. Adicione um rodapé para a página
+
+
+
+O rodapé deve utilizar a tag footer e possuir o ID rodape.
+
+
+**O que será testado:**
+
+- O rodapé deve possuir a tag `footer`;
+
+- O rodapé deve possuir o ID `rodape`.
+
+
+
+## 7. Insira pelo menos um link externo na página
+
+
+
+O link deve redirecionar a pessoa usuária para uma nova aba do navegador.
+
+
+**Dica:** Leia mais sobre redirecionamento de aba (https://www.horadecodar.com.br/2019/11/21/como-fazer-para-o-link-abrir-em-nova-aba-tag-a-do-html/)
+
+**O que será testado:**
+
+- O link deve ser aberto em nova aba no navegador.
+
+
+
+## 8. Crie um artigo sobre o seu aprendizado
+
+
+
+O artigo deverá ser uma tag html article e deve possuir mais de 300 caracteres e menos de 600.
+
+
+**O que será testado:**
+
+- O artigo deve possuir a tag `article`;
+- O artigo deve ter mais de 300 caracteres e menos de 600.
+
+
+
+## 9. Crie uma tag html `aside` que contenha uma breve descrição sobre você
+
+
+
+A tag aside deverá possuir mais de 100 caracteres e menos de 300.
+
+
+Lembre-se que tudo dentro da tag `aside` será contabilizado como caractere.
+
+**O que será testado:**
+
+- A tag `aside` deve ser utilizada;
+- A sua descrição deve ter mais que 100 caracteres e menos que 300.
+
+
+
+
+## 10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles
+
+
+
+A sua página deve conter os seguintes elementos: article, header, aside e footer.
+
+
+**O que será testado:**
+
+- A página deve possuir um elemento `article`;
+- A página deve possuir um elemento `header`;
+- A página deve possuir um elemento `aside`;
+- A página deve possuir um elemento `footer`.
+
+
+
+## 11. Teste a semântica da sua página usando o site [CodeSniffer](https://squizlabs.github.io/HTML_CodeSniffer/)
+
+
+
+Teste se a semântica da sua página está aprovada pelo site (https://squizlabs.github.io/HTML_CodeSniffer/) CodeSniffer
+
+
+**O que será testado:**
+
+- A sua página deve passar com `0 errors` na verificação de semântica do site [CodeSniffer](https://squizlabs.github.io/HTML_CodeSniffer/).
+
+
+
+---
+ 
+# Requisitos Bônus
+
+## 12. Adicione uma tabela à página
+
+
+
+A página deve possuir uma tabela.
+
+
+**Dica:** Você pode ler mais sobre tabelas no CSS (https://www.w3schools.com/html/html_tables.asp).
+
+**O que será testado:**
+
+- A página deve possuir um elemento `<table>`.
+
+
+
+## 13. Utilize o Box model
+
+
+
+Altere margin, padding e border dos elementos para ver, na prática, como esses atributos influenciam e melhoram a visualização dos componentes.
+
+
+**O que será testado:**
+
+- Algum elemento deve ter o atributo `margin` modificado;
+- Algum elemento deve ter o atributo `padding` modificado;
+- Algum elemento deve ter o atributo `border` modificado.
+
+
+
+## 14. Altere atributos relacionados às fontes
+
+
+
+Modifique o estilo da sua tipografia alterando o tamanho de letra, a cor, o espaçamento entre as linhas e a font-family.
+
+
+**O que será testado:**
+
+- O estilo da tipografia deve ter o tamanho da letra alterado;
+- O estilo da tipografia deve ter a cor da letra alterada;
+- O estilo da tipografia deve ter o espaçamento entre as linhas alterado;
+- O estilo da tipografia deve ter o atributo `font-family`.
+
+
+
+## 15. Posicione a tag `article` e a tag `aside` uma ao lado do outra
+
+
+
+Adicione ao elemento posicionado no lado esquerdo a classe lado-esquerdo e ao elemento posicionado no lado direito a classe lado-direito.
+
+
+**O que será testado:**
+
+- O elemento posicionado à esquerda deve utilizar a classe `lado-esquerdo`;
+- O elemento posicionado à direita deve utilizar a classe `lado-direito`;
+- Os elementos com as classes `lado-direito` e `lado-esquerdo` estão posicionados corretamente.
+
+
+---
