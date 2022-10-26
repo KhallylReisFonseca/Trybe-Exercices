@@ -146,12 +146,12 @@ Crie uma função que receba uma string word e outra string ending. Verifique se
 function verificaFimPalavra(string, final){
     string.split('');
     final.split('');
-    let control = true;
+    let controle = true;
     for (let index = 0; index < string.length; index++) {
         if(string[string.length - final.length + index] != final[index]){
-            control = false;
+            controle = false;
         }
     }
-    console.log(control)
+    console.log(controle)
 }
 verificaFimPalavra('khallyl', 'lyll');

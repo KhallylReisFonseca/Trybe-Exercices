@@ -8,3 +8,13 @@
     Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
     Agora acesse o terceiroFilho a partir de pai.
 */
+
+const pegaElemento = document.querySelector('#elementoOndeVoceEsta');
+pegaElemento.parentNode.style.color = 'blue';
+pegaElemento.firstElementChild.innerHTML = 'TESTEEEE!'
+const pegaPai = document.querySelector('#pai');
+pegaPai.firstElementChild.innerHTML = 'TESTEEEEEEEE!'
+pegaElemento.previousElementSibling.innerHTML = 'TESTEEEEEEEEE!'
+pegaElemento.parentElement.innerText = 'testaaaaaa!'
+console.log(pegaPai)
+
