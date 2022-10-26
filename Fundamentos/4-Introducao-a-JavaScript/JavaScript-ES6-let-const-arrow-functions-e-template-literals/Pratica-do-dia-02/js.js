@@ -66,9 +66,9 @@ Exemplo:
     Bônus (opcional): Tente fazer o mesmo exercício utilizando o método array.sort().
 
 */
-let string = "123 testando khallyl testandooooo vamos la trybe deucertocaramba";
+let string1 = "123 testando khallyl testandooooo vamos la trybe deucertocaramba";
 
-function retornaMaior(string){
+function retornaMaior(string1){
     const arrayFrases = string.split(' ');
     let inicial = arrayFrases[0].length;
     let resultado
@@ -79,16 +79,16 @@ function retornaMaior(string){
     }
     console.log(resultado)
 }
-retornaMaior(string);
+retornaMaior(string1);
 
 
 
-let string = "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo testando khallyl testandooooo vamos la trybe deucertocaramba aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+let string2 = "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo testando khallyl testandooooo vamos la trybe deucertocaramba aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 
-function retornaMaior(string){
+function retornaMaior(string2){
     const arrayFrases = string.split(' ');
     arrayFrases.sort()
     //arrayFrases.reverse();
     console.log(arrayFrases)
 }
-retornaMaior(string);
+retornaMaior(string2);
