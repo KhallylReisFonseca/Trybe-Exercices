@@ -1,0 +1,102 @@
+body {
+  background-image: url('/Trybe-Exercices/Fundamentos/5-JavaScript-DOM-Eventos-e-Web-Storage/Projeto-Arte-com-Pixels/Imagens/background.gif');
+  background-size: cover;
+}
+
+#h1-title {
+  color: azure;
+  text-align: center;
+  margin: 10px auto auto;
+}
+
+#title {
+  text-align: center;
+  margin: 10px auto auto;
+  color: black;
+}
+
+#color-palette {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px auto auto;
+}
+
+#div-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#button-random-color {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+}
+
+#clear-board {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+}
+
+#board-size {
+  width: 100px;
+  height: 44px;
+  text-align: center;
+}
+
+#color-selected {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20%;
+  margin: 5px;
+  background-color: black;
+
+}
+
+#pixel-board {
+  background-color: rgb(21, 1, 66);
+  box-shadow: 0 0 20px 0 black;
+  display: grid;
+  grid-template-columns: repeat(5, 5fr);
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 210px;
+  margin: 20px auto auto;
+  padding: 0;
+}
+
+.color {
+  border: 1px solid black;
+  box-shadow: 0 0 10px 0 black;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 20%;
+  margin: 5px;
+}
+
+.pixel {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+}
+
+#div-container-footer {
+  position: absolute;
+  bottom: 0;
+  color: #FFF;
+  width: 99%;
+  height: 100px;    
+  text-align: center;
+}
+
+#p-footer {
+  color: azure;
+}
