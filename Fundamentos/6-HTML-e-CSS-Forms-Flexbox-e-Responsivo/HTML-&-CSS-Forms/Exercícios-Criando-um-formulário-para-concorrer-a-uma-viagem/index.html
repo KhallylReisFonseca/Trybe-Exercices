@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concorra a uma viagem!</title>
+    <link rel="stylesheet" href="/Fundamentos/6-HTML-e-CSS-Forms-Flexbox-e-Responsivo/HTML-&-CSS-Forms/Exercícios-Criando-um-formulário-para-concorrer-a-uma-viagem/style.css">
+</head>
+<body>
+    <header><p><h3>Preencha para concorrer a uma viagem!</h3></p></header>
+    <form action="" method="GET" enctype="multipart/form-data" id="forms-principal">
+        <label for="nome-completo">Nome:
+            <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome" required maxlength="40" minlength="10">
+        </label>    
+        <br>
+        <br>
+        <label for="input-email">E-mail:</label>
+        <input type="email" name="email" id="input-email" placeholder="Digite seu email" required maxlength="50" minlength="10" >
+        <br>
+        <br>
+        <p>Destino Preferido:</p>
+        <label for="destino-1">
+            <input type="radio" id="destino-1" name="destino-favorito" value="pizza" checked>Cidade
+        </label>
+        <label for="destino-2">
+            <input type="radio" id="destino-2" name="destino-favorito" value="churrasco">Campo
+        </label>
+        <label for="destino-3">
+            <input type="radio" id="destino-3" name="destino-favorito" value="Macarrão">Montanhas
+        </label>
+        <label for="destino-4">
+            <input type="radio" id="destino-4" name="destino-favorito" value="lasanha">Praia
+        </label>
+        <br>
+        <br>
+        <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+        <textarea name="sobre-mim" id="textarea-1" cols="50" rows="20" maxlength="500" placeholder="Conte um pouco da sua história"></textarea>
+        <br>
+        <br>
+        <label for="input-date">Data:</label>
+        <input type="date" name="date" id="input-date">
+        <br>
+        <br>
+        <p>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</p>
+        <label for="checkbox-oportunidades">
+        <input type="checkbox" name="promocoes" id="checkbox-oportunidades">Sim
+        <input type="checkbox" name="promocoes" id="checkbox-oportunidades">Não
+        </label>
+        <br>
+        <br>
+        <p>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</p>
+        <label for="concordo">
+            <input type="checkbox" name="concordo" id="concordo">
+        </label>
+        <br>
+        <br>
+        <button type="submit">Enviar cadastro</button>
+    </form>
+    <script src="/Fundamentos/6-HTML-e-CSS-Forms-Flexbox-e-Responsivo/HTML-&-CSS-Forms/Exercícios-Criando-um-formulário-para-concorrer-a-uma-viagem/script.js"></script>
+</body>
+</html>
