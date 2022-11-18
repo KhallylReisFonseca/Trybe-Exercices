@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="div-header"><p><h1>MEME GENERATOR!</h1></p></div>
+    </header>
+    <main>
+        <section>
+            <label>Foto:</label>
+            <input type="file" name="meme-insert" id="meme-insert">
+            <br>
+            <br>
+            <br>
+            <label>Top Text: </label>
+            <input type="text" id="text-input" oninput="putTextTop()" maxlength="60">
+            <br>
+            <br>
+            <label>Botton Text: </label>
+            <input type="text" id="text-input2" oninput="putTextBot()" maxlength="60">
+            <br>
+            <br>
+            <div id="div-memes">
+                <img src="/imgs/meme1.png" alt="" id="meme-1">
+                <img src="/imgs/meme2.png" alt="" id="meme-2">
+                <img src="/imgs/meme3.png" alt="" id="meme-3">
+                <img src="/imgs/meme4.png" alt="" id="meme-4">
+            </div>
+            <div id="div-buttons">
+                <button id="fire">Fire &#128293;</button>
+                <button id="water">Water &#127754;</button>
+                <button id="earth">Earth &#127758;</button>
+        </section>
+        <section>
+            <div id="meme-image-container">
+                <p id="meme-text"></p>
+                <p id="meme-text-bot"></p>
+                <img src="" alt="" id="meme-image">
+            </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
