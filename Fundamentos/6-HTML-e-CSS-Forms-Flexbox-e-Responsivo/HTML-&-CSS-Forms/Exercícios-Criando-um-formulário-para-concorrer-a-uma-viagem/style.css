@@ -1,0 +1,7 @@
+body{
+    background-color: gray;
+}
+#forms-principal {
+    border: 5px solid black;
+    padding: 5px;
+}

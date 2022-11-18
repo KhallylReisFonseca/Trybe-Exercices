@@ -50,19 +50,19 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 5.3 - JavaScript - Eventos
 - [x] 5.4 - JavaScript - Web Storage
 - [x] 5.5 - Projeto - Arte com Pixels
-- [ ] 5.6 - (Bônus) Projeto - Lista de tarefas
-- [ ] 5.6 - (Bônus) Projeto - Meme Generator
-- [ ] 5.6 - (Bônus) Projeto - Adivinhe a Cor
-- [ ] 5.6 - (Bônus) Projeto - Carta Misteriosa
+- [x] 5.6 - (Bônus) Projeto - Lista de tarefas
+- [x] 5.6 - (Bônus) Projeto - Meme Generator
+- [x] 5.6 - (Bônus) Projeto - Adivinhe a Cor
+- [x] 5.6 - (Bônus) Projeto - Carta Misteriosa
 
 ##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 - [x] 6.1 - HTML & CSS - Forms
-- [ ] 6.2 - Bibliotecas JavaScript e Frameworks CSS
-- [ ] 6.3 - Introdução - CSS Flexbox
-- [ ] 6.4 - CSS Flexbox - Parte 1
-- [ ] 6.5 - CSS Flexbox - Parte 2
-- [ ] 6.6 - CSS Responsivo - Mobile First
-- [ ] 6.7 - Projeto - Trybewarts
+- [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
+- [x] 6.3 - Introdução - CSS Flexbox
+- [x] 6.4 - CSS Flexbox - Parte 1
+- [x] 6.5 - CSS Flexbox - Parte 2
+- [x] 6.6 - CSS Responsivo - Mobile First
+- [x] 6.7 - Projeto - Trybewarts
 
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 - [ ] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
