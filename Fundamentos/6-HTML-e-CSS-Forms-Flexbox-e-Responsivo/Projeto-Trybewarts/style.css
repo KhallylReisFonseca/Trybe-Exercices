@@ -1,0 +1,127 @@
+body , html {
+  font-family: Times New Roman, Times, serif;
+  margin: 0;
+  height: 100vh;
+}
+
+
+/* CABEÇALHO */
+.header {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  margin: 0 10px;
+  width: 100px;
+}
+
+#trybewarts-header-title {
+  font-size: 48px;
+  color: white;
+}
+
+.campo-login {
+  margin: 0 10px;
+  padding: 10px;
+  height: 30%;
+  width: 250px;
+}
+
+#botao1 {
+  margin: 0 10px;
+  height: 35px;
+  width: 60px;
+}
+
+
+/* FIM DO CABEÇALHO */
+
+
+/* CONTEÚDO PRINCIPAL */
+main {
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 1.6em;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+.campo-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#campo-usuario {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nome-usuario {
+  padding: 6px;
+  border: 1px solid rgb(218, 218, 218);
+  width: 150px;
+}
+
+#campo-familia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#campo-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-checkbox {
+  margin: 6px;
+}
+
+#label-family , #label-content , #label-textarea {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+#campo-textarea {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#counter {
+  margin: 6px;
+}
+
+#user-agreement {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+/* FIM DO CONTEÚDO PRINCIPAL */
+footer {
+  padding: 30px 0;
+  width: 100%;
+  text-align: center;
+}
