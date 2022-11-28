@@ -1,17 +1,51 @@
-body , html {
-  font-family: Times New Roman, Times, serif;
-  margin: 0;
-  height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap');
+
+:root {
+  --color: #00ccff;
+  --color-shade: #413f99;
 }
 
+body {
+  background-image: url('/Trybe-Exercices/Fundamentos/6-HTML-e-CSS-Forms-Flexbox-e-Responsivo/Projeto-Trybewarts/images/spookycastle_spookycastle-01.jpg');
+  background-size: cover;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
 
-/* CABEÇALHO */
+#campo-textarea > p {
+  margin-bottom: 8px;
+}
+
+#campo-textarea > div {
+  position: relative;
+}
+
+#campo-textarea > div > textarea {
+  width: 99.5%;
+  resize: none;
+}
+
+#campo-textarea > div > p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-9px, -9px);
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+textarea::placeholder {
+  color: rgb(255, 255, 255);
+}
+
 .header {
-  height: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(50, 167, 145);
+  backdrop-filter: blur(10px);
+  padding: 0 10px 0 0;
 }
 
 .trybewarts-login {
@@ -36,17 +70,22 @@ body , html {
   width: 250px;
 }
 
-#botao1 {
-  margin: 0 10px;
-  height: 35px;
-  width: 60px;
+input, textarea {
+  background-color: rgba(0, 0, 0, .3);
+  color: #ffffff;
+  border: none;
+}
+#div-dados {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-bottom: 5px;
 }
 
+#form-data {
+  color: rgb(0, 0, 0);
+}
 
-/* FIM DO CABEÇALHO */
-
-
-/* CONTEÚDO PRINCIPAL */
 main {
   margin: 60px auto;
   display: flex;
@@ -58,7 +97,6 @@ main {
 #evaluation-form {
   display: flex;
   flex-direction: column;
-  width: 675px;
 }
 
 .campo-input {
@@ -74,7 +112,52 @@ main {
 #campo-usuario {
   display: flex;
   flex-wrap: wrap;
+  gap: 50px;
 }
+
+fieldset {
+  margin-bottom: 10px;
+  backdrop-filter: blur(10px);
+}
+
+#submit-btn {
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  width: 103.7%;
+  margin-top: 5px;
+  background-color: var(--color);
+  font-weight: 600;
+}
+
+#submit-btn:hover {
+  background-color: var(--color-shade);
+}
+
+#submit-btn:disabled {
+  cursor: not-allowed;
+  background-color: var(--color);
+  opacity: 50%;
+}
+
+#botao1 {
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--color);
+  font-weight: 600;
+}
+
+#botao1:hover {
+  background-color: var(--color-shade);
+}
+
+#botao1:disabled {
+  cursor: not-allowed;
+  background-color: var(--color);
+  opacity: 50%;
+}
+
 
 .nome-usuario {
   padding: 6px;
@@ -119,9 +202,7 @@ main {
   justify-content: space-around;
 }
 
-/* FIM DO CONTEÚDO PRINCIPAL */
 footer {
-  padding: 30px 0;
   width: 100%;
   text-align: center;
 }
