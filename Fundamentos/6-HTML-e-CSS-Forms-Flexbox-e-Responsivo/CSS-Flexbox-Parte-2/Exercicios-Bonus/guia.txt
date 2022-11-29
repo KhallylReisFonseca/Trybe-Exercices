@@ -1,0 +1,10 @@
+Que bom que você chegou até aqui! Para treinar ainda mais as propriedades de Flexbox, reunimos alguns exercícios gameficados que são superdivertidos.🚀
+
+Flexbox Web Flow
+https://www.flexboxgame.com/
+
+Flexbox Froggy - exercícios de 14 a 24
+https://flexboxfroggy.com/
+
+Flexbox Defense - exercícios de 10 a 12
+http://www.flexboxdefense.com/
