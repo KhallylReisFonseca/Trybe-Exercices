@@ -80,7 +80,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ---
 
-## Módulo 2: Front-end
+## Módulo 2: Front-end :arrow_forward:
 
 ---
 
@@ -137,7 +137,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ---
 
-## Módulo 3: Back-end
+## Módulo 3: Back-end :pause_button:
 
 ---
 
@@ -225,7 +225,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ---
 
-## Módulo 4: Ciência da Computação
+## Módulo 4: Ciência da Computação :pause_button:
 
 ---
 
